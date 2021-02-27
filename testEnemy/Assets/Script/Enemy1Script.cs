@@ -24,8 +24,8 @@ public class Enemy1Script : MonoBehaviour
     private CharacterController enemyController;
     UnityEngine.AI.NavMeshAgent navMeshAgent;
 
-    private bool arrived;           // 到着フラグ
-    private float walkSpeed = 1.0f; // 歩行速度
+    //private bool arrived;           // 到着フラグ
+    //private float walkSpeed = 1.0f; // 歩行速度
 
     private Vector3 velocity;       // 速度
     private Vector3 direction;      // 移動方向
@@ -67,7 +67,7 @@ public class Enemy1Script : MonoBehaviour
         StateAttack.execDelegate = Attack;
 
 
-        arrived = false;
+        //arrived = false;
         velocity = Vector3.zero;
     }
 

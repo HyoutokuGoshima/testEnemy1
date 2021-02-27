@@ -18,14 +18,14 @@ public class NewBehaviourScript : MonoBehaviour
 
     // 移動関係 //
 
-    private float walkSpeed = 1.0f; // 歩くスピード
+    //private float walkSpeed = 1.0f; // 歩くスピード
     private Vector3 velocity;       // 速度
     private Vector3 direction;      // 移動方向
 
     private bool arrived;           // 到着フラグ
                                     // SetPositionスクリプト
-    private float waitTime = 5f;    // 待ち時間
-    private float elapsedTime;      // 経過時間
+    //private float waitTime = 5f;    // 待ち時間
+   // private float elapsedTime;      // 経過時間
 
 
 
@@ -36,7 +36,7 @@ public class NewBehaviourScript : MonoBehaviour
         {
             case State.Walk:
                 arrived = false;
-                elapsedTime = 0f;
+          //      elapsedTime = 0f;
                 break;
 
             case State.Chace:

@@ -17,13 +17,13 @@ public class CreateEnemy : MonoBehaviour
     private float       SearchDist_NavMesh = 30f; // 生成地点から検索できるNavMeshの距離
 
     [SerializeField]
-    private float       CreateTime = 3f; // 敵が生成される時間
+  //  private float       CreateTime = 3f; // 敵が生成される時間
 
-    [SerializeField]
+    //[SerializeField]
     private float createAngle = 180f;
 
 
-    private float time = 0f;   // 経過時間
+   // private float time = 0f;   // 経過時間
 
 
 
